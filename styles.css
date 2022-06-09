@@ -23,7 +23,7 @@ body {
     gap: 20px;
 }
 
-a{
+a {
       text-decoration: none;
       color: #112138;
 } 
@@ -45,6 +45,12 @@ a{
 h1 {
     font-weight: bold;
     font-size: 48px;
+    margin: 0;
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 20px;
 }
 
 span {
@@ -53,17 +59,160 @@ span {
 
 button {
     padding: 14px 40px;
+    margin-top: 10px;
     background: #007D54;
     border-radius: 4px;
     border: none;
     color: #ffffff;
 }
-.features .container{
+
+.features .container {
     display: flex;
     justify-content: space-around;
-    padding: ;
+    align-items: center;
+}
+
+.features h3 {
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0 0 12px 0;
+}
+
+.features p {
+    font-size: 18px;
+    color: #525252;
+    margin-bottom: 32px;
+}
+
+.information {
+    text-align: center;
+    color: #ffffff;
+    padding: 80px 30%;
+}
+
+.coffee-header {
+    font-weight: 600;
+    color: #F5F6F7;
+}
+
+.title {
+    margin-right: 15%;
+
+}
+
+.image {
+    padding: 80px 5%;
 }
 
 .information {
     background-image: url(images/coffee.png);
 }
+
+.testimonial-ui {
+    padding: 80px 0;
+}
+
+.testimonial-ui .container {
+    text-align: center;
+    padding: 20px;
+}
+
+.testimonial-header {
+    color: #112138;
+}
+
+.testimonial-h4 {
+    color: #525252;
+    font-weight: 500;
+}
+
+hr {
+    width: 54px;
+    height: 3px;
+    background-color: #007D54;
+    border: 0;
+}
+
+.testimonials {
+   display: flex;
+   margin: 0 -40px;
+}
+
+figure {
+    border: 1px solid #007D54;
+    border-radius: 4px;
+    padding: 32px;
+}
+
+.customer-info {
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.customer-info img {
+    width: 52px;
+    height: 52px;
+}
+
+.customer-info p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #007D54;
+}
+
+.customer-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.customer-name * {
+    margin: 0 12px;
+}
+
+figcaption {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #525252;
+}
+
+footer {
+    background-color: #112138;
+    color: #ffffff;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+footer ul {
+    padding: 0;
+}
+
+.footer-media ul{
+    display: flex;
+    list-style-type: none;
+    gap: 35px;
+    margin-top: 33px;
+}
+
+footer a {
+    color: #F5F6F7;
+}
+
+footer h4 {
+    margin: 0 0 20px 0;
+}
+
+footer ul>li {
+    list-style-type: none;
+    padding: 4px 0;
+}
+
+
