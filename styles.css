@@ -72,13 +72,13 @@ button {
     align-items: center;
 }
 
-.features h3 {
+.title h3 {
     font-weight: 700;
     font-size: 24px;
     margin: 0 0 12px 0;
 }
 
-.features p {
+.title p {
     font-size: 18px;
     color: #525252;
     margin-bottom: 32px;
@@ -186,7 +186,6 @@ footer {
 footer .container {
     display: flex;
     justify-content: space-between;
-    align-items: top;
     padding-top: 80px;
     padding-bottom: 80px;
 }
@@ -202,6 +201,13 @@ footer ul {
     margin-top: 33px;
 }
 
+.links {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 0 0 10%;
+}
+
 footer a {
     color: #F5F6F7;
 }
@@ -215,4 +221,63 @@ footer ul>li {
     padding: 4px 0;
 }
 
+@media screen and (max-width: 900px) {
+        .container {
+            max-width: 100%;
+        }
+
+        .header {
+            padding: 5% 0;
+        }
+
+        .big-menu {
+            display: none;
+        }
+
+        .hero .container {
+            padding: 10vh 5vw;
+        }
+
+        button {
+            padding: 14px 30%;
+        }
+
+        .title {
+            padding-top: 20px;
+        }
+
+        .features .container {
+            flex-direction: column;
+        }
+
+        .information {
+            padding: 40px;
+        }
+        
+        .testimonials {
+            flex-direction: column;
+            margin: 0;
+        }
+  }
+
+  @media screen and (max-width: 400px) {
+      .image 
+        {
+          width: 95%;
+          padding: 40px 5%;
+        }
+
+        footer .container {
+            flex-direction: column;
+        }
+
+        .footer-media {
+            justify-content: center;
+           
+        }
+
+        .links {
+            padding: 0;
+        }
+  }
 
