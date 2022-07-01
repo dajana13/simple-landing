@@ -323,6 +323,10 @@ footer ul>li {
     text-align: center;
 }
 
+.social-icon:hover {
+    fill: white;
+}
+
 @media screen and (min-width: 75rem) {
     .features .container {
         flex-direction: row;
